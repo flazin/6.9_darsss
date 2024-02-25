@@ -5,7 +5,7 @@ let open = ref(false);
 </script>
 
 <template>
-  <header>
+  <header class="background-color:blue;">
     <nav
       class="container relative flex items-center justify-between px-6 py-8 mx-auto text-white"
     >
@@ -47,7 +47,7 @@ let open = ref(false);
       >
         <a
           href="#"
-          class="block transition-colors duration-300 md:px-6 hover:text-indigo-300 items-end mx-auto"
+          class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300 items-end mx-auto"
           >Home
         </a>
         <a
@@ -95,7 +95,7 @@ let open = ref(false);
           </p>
           <br />
           <button class="here">HERE ME</button
-          ><button class="hare">SEE MY PROJECTS</button>
+          ><button class="hare items-start">SEE MY PROJECTS</button>
 
           <img
             class="image"
