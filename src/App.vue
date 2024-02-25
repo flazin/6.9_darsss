@@ -7,7 +7,7 @@ let open = ref(false);
 <template>
   <header>
     <nav
-      class="container relative flex items-center justify-between px-6 py-8 mx-auto text-white"
+      class="container relative flex items-center justify-between px-6 py-8 mx-auto text-black"
     >
       <button @click="open = !open" class="md:hidden">
         <span v-show="!open">
