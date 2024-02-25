@@ -16,12 +16,16 @@
   left: 80px;
 }
 .here {
+  width: 112px;
+  height: 42px;
   color: black;
   background-color: white;
   align-items: start;
   justify-content: start;
 }
 .hire {
+  width: 168px;
+  height: 42px;
   color: white;
   background-color: black;
   align-items: start;
