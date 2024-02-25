@@ -5,7 +5,7 @@ let open = ref(false);
 </script>
 
 <template>
-  <header class="bg-indigo-500">
+  <header class="bg-indigo-800">
     <nav
       class="container relative flex items-center justify-between px-6 py-8 mx-auto text-white"
     >
