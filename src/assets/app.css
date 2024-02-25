@@ -10,20 +10,18 @@
   color: black;
   border-radius: 1px solid black;
   border: 2px;
-  gap: 10px;
 }
 
 .hare {
   background-color: black;
   color: white;
   border: 2px;
-  gap: 10px;
 }
 
 .desc {
   color: white;
-  left: 120px;
-  top: 518px;
+  left: 100px;
+  top: 318px;
   left: 80px;
 }
 .title {
