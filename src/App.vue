@@ -47,7 +47,7 @@ let open = ref(false);
       >
         <a
           href="#"
-          class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300 items-end mx-auto"
+          class="block transition-colors duration-300 md:px-6 hover:text-indigo-300 items-end mx-auto"
           >Home
         </a>
         <a
