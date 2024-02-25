@@ -10,9 +10,9 @@
   color: black;
   border-radius: 1px solid black;
   top: 90px;
-  left: 80px;
-  border: 2px;
-  padding: 30px, 50px, 30px, 50px;
+  left: 00px;
+  border: 0px;
+  padding: 0px, 0px, 0px, 0px;
   gap: 10px;
 }
 
@@ -20,9 +20,9 @@
   background-color: black;
   color: white;
   top: 90px;
-  left: 80px;
+  left: 0px;
   border: 2px;
-  padding: 30px, 50px, 30px, 50px;
+  padding: 0px, 0px, 0px, 0px;
   gap: 10px;
 }
 
@@ -39,7 +39,7 @@
 
 .img {
   width: 497px;
-  height: 588.18px;
-  left: 935px;
+  height: 540px;
+  left: 890px;
   position: absolute;
 }
