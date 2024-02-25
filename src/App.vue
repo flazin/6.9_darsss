@@ -4,10 +4,10 @@ import { ref } from "vue";
 let open = ref(false);
 </script>
 
-<template>
+<template class="backround-color:white;">
   <header class="bg-indigo-500">
     <nav
-      class="container relative flex items-center justify-between text-white"
+      class="container relative flex items-center justify-between px-6 py-8 mx-auto text-white"
     >
       <button @click="open = !open" class="md:hidden">
         <span v-show="!open">
@@ -40,11 +40,14 @@ let open = ref(false);
       </button>
 
       <div
+        :class="[
+          open ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full',
+        ]"
         class="absolute inset-x-0 z-30 w-full px-6 py-8 mt-4 space-y-6 transition-all duration-300 ease-in-out bg-indigo-600 top-16 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:space-y-0 md:-mx-6 md:flex md:items-center"
       >
         <a
           href="#"
-          class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"
+          class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300 items-end mx-auto"
           >Home
         </a>
         <a
