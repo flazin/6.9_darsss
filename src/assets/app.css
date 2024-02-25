@@ -8,9 +8,8 @@
 .here {
   background-color: white;
   color: black;
-  border-radius: 1px solid black;
   top: 90px;
-  left: 00px;
+  left: 0px;
   border: 0px;
   padding: 0px, 0px, 0px, 0px;
   gap: 10px;
@@ -38,8 +37,8 @@
 }
 
 .img {
-  width: 497px;
-  height: 540px;
-  left: 890px;
+  width: 500px;
+  height: 500px;
+  left: 800px;
   position: absolute;
 }
