@@ -15,6 +15,22 @@
   top: 221px;
   left: 80px;
 }
+.here {
+  width: 50px;
+  height: 20px;
+  color: black;
+  background-color: white;
+  align-items: start;
+  justify-content: start;
+}
+.hire {
+  width: 30px;
+  height: 20px;
+  color: white;
+  background-color: black;
+  align-items: start;
+  justify-content: start;
+}
 
 .img {
   width: 500px;
