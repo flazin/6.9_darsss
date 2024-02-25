@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 
-let open = ref(false);
+let open = ref(true);
 </script>
 
 <template>
@@ -9,35 +9,7 @@ let open = ref(false);
     <nav
       class="container relative flex items-center justify-between px-6 py-8 mx-auto text-white"
     >
-      <button @click="open = !open" class="md:hidden">
-        <span v-show="!open">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-6 h-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M4 6h16M4 12h16m-7 6h7"
-            />
-          </svg>
-        </span>
-
-        <span v-show="open">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-5 h-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path fill-rule="evenodd" clip-rule="evenodd" />
-          </svg>
-        </span>
-      </button>
+      <button @click="open = !open" class="md:hidden"></button>
 
       <div
         :class="[
@@ -84,11 +56,11 @@ let open = ref(false);
         class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] items-center"
       >
         <div class="flex flex-col">
-          <h1 class="title item-start">
+          <h1 class="title item-center">
             Hi , I’m Charles, <br />
             Front-end Developer
           </h1>
-          <p class="desc item-start">
+          <p class="desc item-center">
             I design and develop experiences that make people’s lives
             <br />
             simpler through Web and Mobile apps.I work with FIgma ,
@@ -96,8 +68,8 @@ let open = ref(false);
             HTML5, CSS3, JavaScript, React, ReactNative and Flutter.
           </p>
           <br />
-          <button class="here item-start">HERE ME</button>
-          <button class="hare item-start">SEE MY PROJECTS</button>
+          <button class="here item-center">HERE ME</button>
+          <button class="hare item-center">SEE MY PROJECTS</button>
           <div class="item-center">
             <img
               class="image item-center"
