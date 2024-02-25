@@ -80,7 +80,9 @@ let open = ref(false);
 
   <main>
     <section>
-      <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem]">
+      <div
+        class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] items-center"
+      >
         <div class="flex flex-col">
           <h1 class="title item-start">
             Hi , I’m Charles, <br />
