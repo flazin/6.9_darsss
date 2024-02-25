@@ -95,8 +95,8 @@ let open = ref(false);
             HTML5, CSS3, JavaScript, React, ReactNative and Flutter.
           </p>
           <br />
-          <button class="here item-start mx auto">HERE ME</button
-          ><button class="hire item-start mx auto">SEE MY PROJECTS</button>
+          <button class="here item-start mx auto">HERE ME</button><br />
+          <button class="hire item-start mx auto">SEE MY PROJECTS</button>
 
           <img
             class="img width: 497px; height: 588.18px; top: 221px; left: 935px;"
