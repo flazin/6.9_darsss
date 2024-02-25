@@ -26,13 +26,13 @@
 
 .desc {
   color: white;
-
+  left: 120px;
   top: 518px;
   left: 80px;
 }
 .title {
   font-family: "Roboto", sans-serif;
-
+  left: 120px;
   top: 221px;
   left: 80px;
 }
