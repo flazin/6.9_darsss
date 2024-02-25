@@ -95,8 +95,15 @@ let open = ref(false);
             HTML5, CSS3, JavaScript, React, ReactNative and Flutter.
           </p>
           <br />
-          <button class="width:50px; heignt:20px;">HERE ME</button
-          ><button class="width:30px; heignt:20px;">SEE MY PROJECTS</button>
+          <button
+            class="width:50px; heignt:20px; color:black; background-color:white; item-start mx auto"
+          >
+            HERE ME</button
+          ><button
+            class="width:30px; heignt:20px; color:white; background-color:black; item-start mx auto"
+          >
+            SEE MY PROJECTS
+          </button>
 
           <img
             class="img width: 497px; height: 588.18px; top: 221px; left: 935px;"
