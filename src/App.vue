@@ -84,9 +84,7 @@ let open = ref(false);
 
   <main>
     <section>
-      <div
-        class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] place-items-center"
-      >
+      <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem]">
         <div class="flex flex-col items-center mx-auto text-center">
           <h1 class="title">
             Hi , I’m Charles, <br /><br />

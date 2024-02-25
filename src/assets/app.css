@@ -4,27 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .here {
-    background-color: white;
-    color: black;
-    border-radius: 1px solid black;
-    width: 150px;
-    height: 34px;
-  }
-  
-  .hare {
-    background-color: black;
-    color: white;
-    width: 198px;
-    height: 34px;
-  }
+  background-color: white;
+  color: black;
+  border-radius: 1px solid black;
+  width: 150px;
+  height: 34px;
+}
 
-  .desc {
-    color: white;
-  }
+.hare {
+  background-color: black;
+  color: white;
+  width: 198px;
+  height: 34px;
+}
 
-  .image {
-   justify-content:end;
-   align-items:end;
-  }
+.desc {
+  color: white;
+}
+
+.image {
+  display: flex;
+  width: 297px;
+  height: 299px;
+  justify-content: space-between;
+}
