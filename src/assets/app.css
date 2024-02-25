@@ -24,6 +24,10 @@
 .desc {
   color: white;
 }
+.title {
+  width: 801px;
+  height: 257px;
+}
 
 .image {
   display: flex;
