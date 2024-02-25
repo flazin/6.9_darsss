@@ -4,10 +4,10 @@ import { ref } from "vue";
 let open = ref(false);
 </script>
 
-<template>
-  <header>
+<template class="template">
+  <header class="bg-indigo-500">
     <nav
-      class="container relative flex items-center justify-between px-6 py-8 mx-auto text-black"
+      class="container relative flex items-center justify-between px-6 py-8 mx-auto text-white"
     >
       <button @click="open = !open" class="md:hidden">
         <span v-show="!open">
@@ -81,7 +81,7 @@ let open = ref(false);
   <main>
     <section>
       <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem]">
-        <div class="flex flex-col items-center mx-auto">
+        <div class="flex flex-col">
           <h1 class="title">
             Hi , I’m Charles, <br />
             Front-end Developer

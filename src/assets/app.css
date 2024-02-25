@@ -9,29 +9,45 @@
   background-color: white;
   color: black;
   border-radius: 1px solid black;
-  width: 150px;
-  height: 34px;
-  gap: 5px;
+  width: 225px;
+  height: 84px;
+  top: 757px;
+  left: 80px;
+  border: 2px;
+  padding: 30px, 50px, 30px, 50px;
+  gap: 10px;
 }
 
 .hare {
   background-color: black;
   color: white;
-  width: 198px;
-  height: 34px;
+  width: 378px;
+  height: 84px;
+  top: 757px;
+  left: 343px;
+  border: 2px;
+  padding: 30px, 50px, 30px, 50px;
   gap: 10px;
 }
 
 .desc {
   color: white;
+  width: 762px;
+  height: 187px;
+  top: 518px;
+  left: 80px;
 }
 .title {
   font-family: "Roboto", sans-serif;
+  width: 801px;
+  height: 257px;
+  top: 221px;
+  left: 80px;
 }
 
 .image {
-  display: flex;
   width: 497px;
   height: 588.18px;
-  justify-content: space-between;
+  top: 221px;
+  left: 935px;
 }
