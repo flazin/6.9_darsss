@@ -82,12 +82,11 @@ let open = ref(false);
     <section>
       <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem]">
         <div class="flex flex-col items-start mx-auto">
-          -
-          <h1 class="title items-start">
+          <h1 class="title">
             Hi , I’m Charles, <br />
             Front-end Developer
           </h1>
-          <p class="desc items-start">
+          <p class="desc">
             I design and develop experiences that make people’s lives
             <br />
             simpler through Web and Mobile apps.I work with FIgma ,
@@ -95,8 +94,8 @@ let open = ref(false);
             HTML5, CSS3, JavaScript, React, ReactNative and Flutter.
           </p>
           <br />
-          <button class="here items-start">HERE ME</button>
-          <button class="hare items-start">SEE MY PROJECTS</button>
+          <button class="here">HERE ME</button
+          ><button class="hare items-start">SEE MY PROJECTS</button>
 
           <img
             class="image"
