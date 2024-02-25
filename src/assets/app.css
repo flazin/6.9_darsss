@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -28,6 +28,8 @@
 }
 .title {
   font-family: "Roboto", sans-serif;
+  width: 801px;
+  height: 257px;
   left: 120px;
   top: 221px;
   left: 80px;
