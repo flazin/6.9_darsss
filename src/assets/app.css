@@ -32,20 +32,18 @@
 
 .desc {
   color: white;
-  width: 762px;
-  height: 187px;
+
   top: 518px;
   left: 80px;
 }
 .title {
   font-family: "Roboto", sans-serif;
-  width: 801px;
-  height: 257px;
+
   top: 221px;
   left: 80px;
 }
 
-.image {
+.img {
   width: 497px;
   height: 588.18px;
   top: 221px;
